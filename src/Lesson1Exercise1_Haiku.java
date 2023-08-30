@@ -1,4 +1,4 @@
-public class Exercise1Lesson1_Haiku {
+public class Lesson1Exercise1_Haiku {
 
     public static void main (String[] args) {
 
