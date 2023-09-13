@@ -1,5 +1,5 @@
 import java.util.*;
-public class Lesson2Exercise2_MathOperators {
+public class Lesson2Exercise3_MathOperators {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
