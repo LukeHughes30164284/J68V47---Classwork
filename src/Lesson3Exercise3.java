@@ -14,7 +14,7 @@ public class Lesson3Exercise3 {
         System.out.print("Number of years: ");
         float Years = input.nextFloat();
 
-        float j = (Interest /= 100) / 12 ;
+        float j = (Interest / 100) / 12 ;
 
         float n = Years * 12;
 
