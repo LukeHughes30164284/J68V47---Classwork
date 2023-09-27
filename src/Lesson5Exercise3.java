@@ -31,15 +31,15 @@ public class Lesson5Exercise3 {
                 }
             }
             if (count == 3) {
-                System.out.println("What is 5 x 3?");
+                System.out.println("What is 24 - 6?");
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Enter the answer: ");
                 int answer = scanner.nextInt();
-                if (answer == 15) {
+                if (answer == 18) {
                     System.out.println("Well done!");
                     score++;
                 } else {
-                    System.out.println("Sorry, the answer is 12");
+                    System.out.println("Sorry, the answer is 18");
                 }
         }
         System.out.println("Your score is " + score);
