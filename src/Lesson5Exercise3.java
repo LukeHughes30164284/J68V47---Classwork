@@ -4,9 +4,9 @@ public class Lesson5Exercise3 {
     public static void main(String[] args) {
 
         int score = 0;
-        for (int count=1; count<=10; count++){
+        for (int count = 1; count <= 10; count++) {
 
-            if (count == 1 ) {
+            if (count == 1) {
                 System.out.println("What is 5 + 7?");
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Enter the answer: ");
@@ -41,7 +41,8 @@ public class Lesson5Exercise3 {
                 } else {
                     System.out.println("Sorry, the answer is 18");
                 }
+            }
+            System.out.println("Your score is " + score);
         }
-        System.out.println("Your score is " + score);
     }
 }
