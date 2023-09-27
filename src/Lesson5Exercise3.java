@@ -16,6 +16,7 @@ public class Lesson5Exercise3 {
                 score++;
             } else {
                 System.out.println("Sorry, the answer is 12");
+            }
         }
     }
 }
