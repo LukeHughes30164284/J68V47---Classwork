@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Lesson6Exercise1 {
     public static void main(String[] args) {
 
