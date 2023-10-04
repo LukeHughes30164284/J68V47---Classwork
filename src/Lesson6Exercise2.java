@@ -21,7 +21,6 @@ public class Lesson6Exercise2 {
             if (Number == 4) {
                 Count++;
             }
-
         }
     }
 }
