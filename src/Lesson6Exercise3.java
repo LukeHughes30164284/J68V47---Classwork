@@ -139,7 +139,7 @@ public class Lesson6Exercise3 {
             }
             System.out.println("Your score is " + score);
 
-            if (lives == 3) {a
+            if (lives == 3) {
                 System.out.println("well done");
             }
         }
