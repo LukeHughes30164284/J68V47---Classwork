@@ -1,5 +1,17 @@
 import java.util.*;
 public class Lesson8Exercise3 {
+
+    public static String[] addElementAt(String[] oldArray, String newString, int index) {
+        int length = oldArray.length;
+        String[] newArray = new String[length + 1];
+        System.arraycopy(oldArray, 0, newArray, 0, index);
+        newArray[index] = newString;
+        if (index < (length - 1)) {
+            System.arraycopy(oldArray, index, newArray, index + 1, length - index);
+        }
+        return newArray;
+    }
+
     public static void main(String[] args) {
         // Set up the directions array
         String[] directions = {"Start by exiting the building you are currently in and turning left onto the main road.",
@@ -13,16 +25,28 @@ public class Lesson8Exercise3 {
 
         // Print out each direction
         int step = 1;
-        for (String direction : directions) {
-            System.out.format("%d. %s %n", step, direction);
-            step++;
+        for(String direction : directions) {
+            System.out.format("%d. %s %n",step,direction);
+            step ++;
         }
+        System.out.println();
+
+
+        String newStep = "After turning ont Elm Street, walk past the grocery store on your right.";
+        directions = addElementAt(directions, newStep, 4);
+
+
+        step = 1;
+        for(String direction : directions) {
+            System.out.format("%d. %s %n",step,direction);
+            step ++;
+        }
+        System.out.println();
+
+
+
+
+
     }
 
-    public static String[] addToStringArray(String[] oldArray, String newString) {
-        String[] newArray = Arrays.copyOf(oldArray, oldArray.length + 1);
-        newArray[oldArray.length] = newString;
-        return newArray;
-
-    }
 }
